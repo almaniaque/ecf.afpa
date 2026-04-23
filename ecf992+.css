@@ -1,0 +1,43 @@
+@media only screen and (min-width: 993px) {
+
+    .compte {
+        height: 08vh;
+    }
+
+
+    h2 {}
+
+    .compte p {
+        margin-left: 10px;
+
+    }
+
+    #Bib {
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .pochette {
+        width: 22vw;
+        height: 300px;
+    }
+
+    .pochette header {
+        height: 12vh;
+    }
+
+    .pochette footer {
+        height: 8vh;
+    }
+
+    .menu {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    nav {}
+}
+
+;

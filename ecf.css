@@ -1,0 +1,161 @@
+body {
+    margin: 2.5vw;
+    margin-top: 0;
+    background-color: #eeede9;
+    font-size: 1em;
+
+}
+
+h1,
+.pochette header p:nth-child(1) {
+    font-family: "Playfair Display", serif;
+}
+
+.menu {
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+#entete p,
+.menu,
+.pochette footer p:nth-child(1),
+.pochette footer p:nth-child(2) {
+    color: gray;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 0;
+
+}
+
+#entete p {
+    margin-top: 0;
+}
+
+#visuel {
+    display: flex;
+    justify-items: center;
+    width: 95vw;
+    margin: 30px 0px;
+    gap: 1.5vw
+}
+
+#foot {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    margin: 0.5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+
+
+.search {
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: -10px;
+}
+
+.compte {
+    width: 25vw;
+    margin: 0 0;
+    height: 10vh;
+    background-color: #f5f5f3;
+    border-radius: 10px;
+}
+
+.compte h2,
+.compte p {
+    margin-left: 1vw;
+
+}
+
+h2 {
+    margin-bottom: 1px;
+}
+
+
+#Bib {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: auto;
+    margin: 30px -10px 0 -10px;
+    gap: 20px;
+}
+
+.pochette {
+    width: 18vw;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 10px;
+    gap: 0;
+}
+
+.pochette header {
+    display: flex;
+    align-items: flex-end;
+    background-color: #A0B4F4;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 25vh;
+
+}
+
+.pochette footer {
+    background-color: white;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin: 0 0 10px 0;
+
+
+}
+
+.pochette p {
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.style,
+.status {
+    max-width: fit-content;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 0px 10px 0px 10px;
+}
+
+.status {
+    background-color: #A0B4F4;
+    border-radius: 5px;
+
+}
+
+.style {
+    background-color: #f5f5f3;
+}
+
+/* color: #f5f5f3; */
