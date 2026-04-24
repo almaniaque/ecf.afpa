@@ -53,7 +53,13 @@
     }
 
     .pochette {
-        width: 95vw
+        width: 95vw;
+        height: 45vh;
+    }
+
+
+    .pochette footer {
+        height: 18vh;
     }
 
     #foot {
@@ -74,6 +80,10 @@
         width: 100vw;
         padding: 15px;
         font-size: x-large
+    }
+
+    .menu:nth-child(4) {
+        width: 150px;
     }
 }
 

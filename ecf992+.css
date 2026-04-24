@@ -1,11 +1,13 @@
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
 
-    .compte {
-        height: 08vh;
+    h2 {
+        font-size: 2em;
+        margin-top: 2vh
     }
 
-
-    h2 {}
+    .compte {
+        height: 12vh;
+    }
 
     .compte p {
         margin-left: 10px;
@@ -21,29 +23,36 @@
 
     .pochette {
         width: 22vw;
-        height: 300px;
+        height: 35vh;
     }
 
     .pochette header {
-        height: 12vh;
+        height: 20vh;
     }
 
     .pochette footer {
-        height: 8vh;
+        height: 14vh;
     }
 
     .menu {
-        padding-left: 2vw;
-        padding-right: 2vw;
-        margin: 0.3vw;
+        padding-left: 1.5vw;
+        padding-right: 1.5vw;
+        margin: 0.2vw;
     }
 
     nav {
         gap: 0vw;
+        justify-content: space-between;
+        margin-left: 1vw;
     }
 
     .search {
         width: 40vw;
+    }
+
+    #foot {
+        grid-template-columns: 1fr 2fr;
+
     }
 }
 
