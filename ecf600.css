@@ -76,7 +76,7 @@
         gap: 1vw;
     }
 
-    .search {
+    #search {
         width: 100vw;
         padding: 15px;
         font-size: x-large
